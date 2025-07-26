@@ -26,10 +26,10 @@ jobs:
 
             if [ ! -d "Last-Breath/.git" ]; then
               echo "Cloning repository"
-              git clone https://github.com/Ozodbek-cloud/Last-Breath
+              git clone https://github.com/umidjon0211/beckend_tugadi
             else
               echo "Repository already exists, pulling latest changes"
-              cd Last-Breath
+              cd beckend_tugadi
               git pull origin main
             fi
 
