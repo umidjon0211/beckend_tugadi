@@ -21,11 +21,11 @@ import { PurchasedCoursesModule } from 'src/modules/purchased-courses/purchased-
 import { UsersModule } from 'src/modules/users/users.module';
 import { PaymentModule } from 'src/modules/payment/payment.module';
 import { ContactModule } from 'src/modules/contact/contact.module';
-// import { SeedersModule } from 'src/core/seeders/seeders.module';
+import { SeedersModule } from 'src/core/seeders/seeders.module';
 
 @Module({
     imports: [
-        // SeedersModule,
+        SeedersModule,
         JwtModule, 
         MailModule,
         RedisModule, 
